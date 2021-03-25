@@ -1,0 +1,108 @@
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/local-scratch/kiarash/anaconda/envs/rnn_vae_graph2/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+the selected device is : cuda:0
+CUDA 1
+File name prefix GraphRNN_MLP_lobster_4_128_
+graph_validate_len 56.3
+graph_test_len 46.1
+total graph num: 100, training set: 80
+max number node: 100
+max/min number edge: 99; 10
+max previous node: 40
+train and test graphs saved at:  ./graphs/GraphRNN_MLP_lobster_4_128_test_0.dat
+/local-scratch/kiarash/Baseline_GraphRNN/model.py:299: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(param,gain=nn.init.calculate_gain('sigmoid'))
+/local-scratch/kiarash/Baseline_GraphRNN/model.py:297: UserWarning: nn.init.constant is now deprecated in favor of nn.init.constant_.
+  nn.init.constant(param, 0.25)
+/local-scratch/kiarash/Baseline_GraphRNN/model.py:302: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  m.weight.data = init.xavier_uniform(m.weight.data, gain=nn.init.calculate_gain('relu'))
+/local-scratch/kiarash/Baseline_GraphRNN/model.py:337: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  m.weight.data = init.xavier_uniform(m.weight.data, gain=nn.init.calculate_gain('relu'))
+/local-scratch/kiarash/Baseline_GraphRNN/train.py:228: UserWarning: invalid index of a 0-dim tensor. This will be an error in PyTorch 0.5. Use tensor.item() to convert a 0-dim tensor to a Python number
+  log_value('loss_'+args.fname, loss.data[0], epoch*args.batch_ratio+batch_idx)
+/local-scratch/kiarash/Baseline_GraphRNN/train.py:230: UserWarning: invalid index of a 0-dim tensor. This will be an error in PyTorch 0.5. Use tensor.item() to convert a 0-dim tensor to a Python number
+  loss_sum += loss.data[0]
+/local-scratch/kiarash/Baseline_GraphRNN/train.py:225: UserWarning: invalid index of a 0-dim tensor. This will be an error in PyTorch 0.5. Use tensor.item() to convert a 0-dim tensor to a Python number
+  epoch, args.epochs,loss.data[0], args.graph_type, args.num_layers, args.hidden_size_rnn))
+Epoch: 100/3000, train loss: 0.020951, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 200/3000, train loss: 0.015553, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 300/3000, train loss: 0.016323, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 400/3000, train loss: 0.015898, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 500/3000, train loss: 0.013789, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 600/3000, train loss: 0.015156, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 700/3000, train loss: 0.015261, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 800/3000, train loss: 0.013491, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 900/3000, train loss: 0.013525, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1000/3000, train loss: 0.012393, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1100/3000, train loss: 0.013261, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1200/3000, train loss: 0.015581, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1300/3000, train loss: 0.011714, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1400/3000, train loss: 0.013391, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1500/3000, train loss: 0.014078, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1600/3000, train loss: 0.010780, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1700/3000, train loss: 0.013571, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1800/3000, train loss: 0.013968, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 1900/3000, train loss: 0.012580, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2000/3000, train loss: 0.011463, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2100/3000, train loss: 0.010974, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2200/3000, train loss: 0.010777, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2300/3000, train loss: 0.011408, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2400/3000, train loss: 0.012322, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2500/3000, train loss: 0.011349, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2600/3000, train loss: 0.012505, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2700/3000, train loss: 0.012505, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2800/3000, train loss: 0.010783, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 2900/3000, train loss: 0.012156, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
+Epoch: 3000/3000, train loss: 0.010591, graph type: lobster, num_layer: 4, hidden: 128
+test done, graphs saved
